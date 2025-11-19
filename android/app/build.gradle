@@ -1,0 +1,22 @@
+android {
+    namespace "Premier Airport Transit Service"
+    compileSdkVersion 34
+
+    defaultConfig {
+        applicationId "Premier Airport Transit Service"
+        minSdkVersion 21
+        targetSdkVersion 34
+        versionCode 1
+        versionName "1.0.0"
+    }
+
+    buildTypes {
+        release {
+            signingConfig signingConfigs.debug
+        }
+    }
+}
+
+flutter {
+    source '../..'
+}
