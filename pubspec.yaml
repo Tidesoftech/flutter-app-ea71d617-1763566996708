@@ -1,0 +1,28 @@
+name: premier_airport_transit_service
+description: Premier Airport Transit Service is a Wilmington, North Carolina-based private transportation company serving the Greater Wilmington region, with a focus on visitors to Southeastern Coastal Carolina.
+
+Our focus is prearranged personal service that meets your needs. When you schedule your reservation, we'll be there for early-morning drop-offs at the Wilmington Airport.
+
+Looking to shuttle your family to and from one of our regional airports to Bald Head Island or any of Coastal Carolina's top beach resort destinations? We can do that.
+
+Customers like you seek door-to-door airport taxi and car services that are reliable, safe, and affordable. Our Dodge Grand Caravan and Tesla vehicles are clean, comfortable, and 100% smoke-free. With over 17 years of experience in commercial transportation, our drivers are renowned for being the friendliest in town. Our prices are very competitive and fair. But honestly, if you're looking for cheap and unreliable service, please call Uber or Lyft.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  webview_flutter: ^4.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icon.png
+    - assets/splash.png
